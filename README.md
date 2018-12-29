@@ -157,7 +157,7 @@
 
 这并不只是学习英语需要的态度，但是在学习英语的过程中，我感受颇深。看到一个老师说的或者网上的知识，第一反应要去质疑跟自己的知识进行对比，确定无误后再吸收。
 
-曾经上过沪江网校的单词课，授课老师是专业英语培训又留过学考试成绩也好，但还是有个别单词读错了，比如 resident 的 si 读了 s 的音，但其实是 z 的音，所以就[反馈给助教](./assets/resident.png)了。通常来说国外英语老师犯错的概率肯定比国内英语老师的低，但也不能保证全对，比如之前我发现了 [Magoosh 一个卡片的奇怪单词](./assets/spreate.jpg)，反馈之后[的确是拼错了](./assets/spread.jpg)。还有 Youtube 上一个[高赞的音标发音示范教程](https://www.youtube.com/watch?v=n4NVPg2kHv4)，又是美女还有嘴形视频非常好了，但是到了[清辅音这里](https://www.youtube.com/watch?v=n4NVPg2kHv4&t=370s)，在 p、t 和 ʧ 的发音明显听到了喉咙震动。。。果断弃之。
+曾经上过沪江网校的单词课，授课老师是专业英语培训又留过学考试成绩也好，但还是有个别单词读错了，比如 resident 的 si 读了 s 的音，但其实是 z 的音，所以就[反馈给助教](./assets/resident.png)了。通常来说国外英语老师犯错的概率肯定比国内英语老师的低，但也不能保证全对，比如之前我发现了 [Magoosh 一个卡片的奇怪单词](./assets/spreate.jpg)，反馈之后[的确是拼错了](./assets/spread.jpg)。还有 Youtube 上一个[高赞的音标发音示范教程](https://www.youtube.com/watch?v=n4NVPg2kHv4)，又是美女还有嘴形视频非常好了，但是到了[清辅音这里](https://www.youtube.com/watch?v=n4NVPg2kHv4&t=370s)，在 p、t 和 ʧ 的发音明显听到了有个呃的声音，喉咙明显震动了。。。果断弃之。
 
 #### 发音训练
 

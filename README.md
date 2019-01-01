@@ -187,7 +187,7 @@
   * 打开 [Google Translate](https://translate.google.as/) 语音输入，尽量带上耳机或者用耳麦尝试发音，查看是否能稳定识别出当前单词。如果不能，请回到第 2 个步骤，对 Google Translate 播放母语音频查看能否识别。如果可以识别，请重复第 2 个步骤训练到可以识别为止。
   * 打开 Google 搜索，[输入当前单词 + vs 即可看到近义词和易混淆词汇](./assets/clump-google.jpg)。搜索查看相关解释。
   * 非特别抽象的单词，可以打开 Google 图片搜索进行搜索，通过图像加深记忆。比如搜索 clump 时，了解到居然是[两位候选人的合体](./assets/clump.jpg)。再举一个例子，`bay` 和 `gulf` 在词典里都有海湾的意思，那它们之间有什么区别吗？用 Google 图片搜索一下你就可以发现，[`gulf` 要比 `bay` 大的多](./assets/gulf-bay.jpg)。
-  * 将单词以及有趣的发现记录在 [Anki](https://apps.ankiweb.net/) 里面，[只需要点击 Add 并添加单词即可，也可以在下方多加一些注释](./assets/add-anki.jpg)，可繁可简不需要花太多时间。将在后面的 QA 部分解释为什么要用 Anki。
+  * 将单词以及有趣的发现记录在 [Anki](https://apps.ankiweb.net/) 里面，[只需要点击 Add 并添加单词即可，也可以在下方多加一些注释](./assets/add-to-anki.jpg)，可繁可简不需要花太多时间。将在后面的 QA 部分解释为什么要用 Anki。
 2. 第二遍在 Anki 里面复习，看到单词尝试发音识别，尝试回忆相关的意思、用法以及图像，尽可能的回忆。如果感觉没问题那么就点击 Good 或者 Easy，否则就选择 Again 或者 Hard。如果掌握不好，请重复第一遍步骤加深记忆。
 3. 第三遍重复第二步。
 4. 第 N 遍，已经基本掌握。

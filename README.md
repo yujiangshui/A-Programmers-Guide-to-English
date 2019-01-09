@@ -478,6 +478,16 @@ Youtube 简直是学习利器。上面有无数的英语讲师录制视频教外
 
 ## 总结
 
-英语学习群
+编写这份指南的第一版花费了超过 20 个小时，跨度 19 天。如果为你带来了一些帮助，也希望可以对我的工作进行一些捐助，因为目前我没有工作在家里蹲着 ^_^。
 
-捐款二维码
+| 支付宝 | 微信 | Paypal |
+|---|---|---|
+| ![](./assets/donate-alipay.jpg) | ![](./assets/donate-wx.jpg) | [Paypal Me](https://www.paypal.me/yujiangshui) |
+
+此外，为了方便英语交流，我建了 [Telegram 群](https://t.me/joinchat/FgiD7Q971k4AMpq1jmO-OA)，如果不方便也可以加入微信群：
+
+![](./assets/wx-group.jpg)
+
+如果群已满，或者过期失效，可以添加机器人微信并回复【English】（注意首字母大写）自动拉入：
+
+![](./assets/wx-robot.jpg)

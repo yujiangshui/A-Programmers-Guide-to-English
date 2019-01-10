@@ -490,10 +490,6 @@ Youtube 简直是学习利器。上面有无数的英语讲师录制视频教外
 |---|---|---|
 | ![](./assets/donate-alipay.jpg) | ![](./assets/donate-wx.jpg) | [Paypal Me](https://www.paypal.me/yujiangshui) |
 
-此外，为了方便英语交流，我建了 [Telegram 群](https://t.me/joinchat/FgiD7Q971k4AMpq1jmO-OA)，如果不方便也可以加入微信群：
-
-![](./assets/wx-group.jpg)
-
-如果群已满，或者过期失效，可以添加机器人微信并回复【English】（注意首字母大写）自动拉入：
+此外，为了方便英语交流，我建了 [Telegram 群](https://t.me/joinchat/FgiD7Q971k4AMpq1jmO-OA)，如果不方便也可以添加机器人微信并回复【English】（注意首字母大写）自动拉入（有效期截止 2019.1.11）：
 
 ![](./assets/wx-robot.jpg)

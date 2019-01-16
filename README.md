@@ -183,7 +183,7 @@
 1. **第一遍开始认识单词：**
   * 通过 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/clump) 查询单词意思，可以看到是否可数、各种**释义和对应的例句**、关联词和对比等等。[Merriam Webster](https://www.merriam-webster.com/dictionary/clump) 是美式在线字典，如有精力也可以作为知识补充，但是例句和界面不如 Cambridge Dictionary 好用。
   * 查看音标，尝试发音（需要先把音标练熟，参照下面教程），收听词典中给出的英式和美式的真人发音，看下自己的发音是否准确？哪里不对？是音标还是重音？练对为止。
-  * 打开 [Forvo](https://forvo.com/word/clump/#en) 收听这个单词不同人的发音，可以尝试跟读以便录入自己的音频语料库。
+  * 打开 [Forvo](https://forvo.com/word/clump/#en) 收听这个单词不同人的发音，可以尝试跟读以便录入自己的音频语料库。 **也强烈推荐使用 [YouGlish](https://youglish.com/search/clump/us?)** ，它会搜索 Youtube 上面包含当前单词的视频，这样发音更贴合日常对话。
   * 打开 [Google Translate](https://translate.google.as/) 语音输入，尽量带上耳机或者用耳麦尝试发音，查看是否能稳定识别出当前单词。如果不能，请回到上面步骤，对 Google Translate 播放母语真人发音音频查看能否识别。如果母语真人发音可以识别，说明你的发音有问题，请重复上面步骤调整发音到可以识别为止。
   * 打开 Google 搜索，[输入当前单词 + vs 即可看到近义词和易混淆词汇](./assets/clump-google.jpg)，搜索查看相关对比。
   * 不是特别抽象的单词，可以打开 Google 图片搜索进行搜索，通过图像加深记忆。我用图片搜索 `clump` 时，才发现了[两位候选人的合体](./assets/clump.jpg)的意思。再举一个例子，`bay` 和 `gulf` 在词典里都有海湾的意思，那它们之间有什么区别吗？用 Google 图片搜索一下你就可以发现，[`gulf` 要比 `bay` 大的多](./assets/gulf-bay.jpg)。
@@ -224,7 +224,7 @@
 
 发音和听力是相辅相成的，都是需要使用语料库的声音素材。**所以练发音的时候，能发出某种特殊的声音，也能让你听力能分辨出来；反之，先能分辨出某种声音，你才能模仿发出来。**
 
-#### # 音标要反复刷，刷到熟练、准确为止
+#### # 音标要刷到熟练、准确为止
 
 **【音标是语音识别的最小识别单位，用于建立最基础的语音语料库】**
 
@@ -236,7 +236,11 @@
 
 之前在阿里工作时用到 [Fusion（现已开源）](https://fusion.design/)，这个单词我在阿里听到了至少十个版本的发音，印象中没有一个是对的。原因很简单，这个单词里有个比较 “难发” 的音 `ʒ`。之所以难发，是因为在汉语中没有这种声音，我们从来没练过发出这种声音，所以不经过训练，口腔肌肉和气息很难发出这个声音导致单词发错音。可以[在 forvo 上面听听多位老外录的发音](https://forvo.com/word/fusion/#en)，可以看到下面仍然有两个奇怪的声音，如果不知道音标模仿这俩声音那就非常悲剧了。当然最准确的还是 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/fusion) 上面的发音，权威、专业且准确。所以**训练音标最重要的目的是补充你之前发不出的声音，并且可以辨音。**
 
-具体训练过程，我先按照网上推荐用了赖世雄的《发音从头学》，不同时间跟着教程刷过三遍，原以为没问题了结果发现还是不行，而且音标是个很奇怪的东西，美式和英式符号有所不同。而这本书主要是美式，网上经常搜出英式音标，所以时常懵逼。这里我推荐直接在 Youtube 上找 IPA 视频来刷，比如 [International Phonetic Alphabet (IPA) | English Pronunciation](https://www.youtube.com/watch?v=o8KppNXfx2k) 这个是我见过最好的 IPA 发音教程，附带了赖世雄书里没有的基础规则和英美对比。但仍然有部分单词的美式发音不够准确，所以还要推荐一个 [48个音标的标准美式发音](https://www.bilibili.com/video/av33138814/) 配合来看，这个的好处是有嘴形可以模仿，**发音的关键就是嘴形、舌头位置、气息相互配合产生声音**，有些声音无法发到位的原因就是嘴形、舌头等不到位。例如 three 的咬舌音 θ，如果你舌尖没放到牙上吐气，就是发不出来。
+具体训练过程，我先按照网上推荐用了赖世雄的《发音从头学》，不同时间跟着教程刷过三遍，原以为没问题了结果发现还是不行，而且国际音标（IPA）有英式的 DJ 和美式的 KK 两种写法。而这本书主要是美式，网上经常搜出英式音标，所以时常懵逼。
+
+这里我推荐直接在 Youtube 上找 IPA 视频来刷，比如 [International Phonetic Alphabet (IPA) | English Pronunciation](https://www.youtube.com/watch?v=o8KppNXfx2k) 这个是我见过最好的 IPA 发音教程，附带了赖世雄书里没有的基础规则和英美对比。但仍然有部分单词的美式发音不够准确，所以还要推荐一个 [48个音标的标准美式发音](https://www.bilibili.com/video/av33138814/) 配合来看，这个的好处是有嘴形可以模仿，**发音的关键就是嘴形、舌头位置、气息相互配合产生声音**，有些声音无法发到位的原因就是嘴形、舌头等不到位。例如 `three` 的咬舌音 `θ`，如果你舌尖没放到牙上吐气，就是发不出来。
+
+由于音标没有纠音工具，所以音标本身这一部分不需要花大精力去拼命练，因为很大概率读的不准。重点在下面 Google 纠音部分，由于音节出错就无法正确识别，所以在纠音时发现识别不出来的单词，找到对应音标来练，可以反向纠正你的音标发音。
 
 #### # 通过 Google 翻译识别纠音
 
@@ -426,6 +430,26 @@ Youtube 简直是学习利器。上面有无数的英语讲师录制视频教外
 
 当然可能也有好的技巧，可以了解他们的方法，分析下是否能真正学到、练到，再决定用他们的方法。不过除非天才，速成基本上是不可能的事情，你也可以看到上面介绍，英语要学习的信息量太大，而且重点是训练成无意识的输入输出。如果你依赖一些思考和技巧，那么肯定会卡顿，导致无法正常交流。
 
+### 多少词汇量才算是掌握英语？
+
+解答这个问题关键还是看你对英语的需求。假设：
+
+* 你的需求是做一名佣人、保姆，你不需要会拼写，只需要会说常见敬语就可以。
+* 你的需求是做日常工作，那么日常词汇需要学会，同时工作范围专业词汇也要明白。
+* 你的需求是做语言学者，那么基本少不了几万的词汇。
+
+这里推荐一篇文章[聪明人应该如何背单词？](https://zhuanlan.zhihu.com/p/26175433)，作者通过数据统计发现背熟 7000 个单词基本可以表达 90% 的场景，正如我们平日用的中文一样。而剩余的 10% 也可以通过上下文语境等推断出来。
+
+同时该文作者整理出来了麦克米伦 7000 高频词记忆卡（Anki）并开放下载，为了方便我放在了 GitHub 一份，可以[点击这里下载](./assets/麦克米伦7000高频词.apkg.zip)。需要安装 Anki，解压后双击即可自动导入开始学习。
+
+这里我并不认同作者的死记硬背中文词义的方式，原因不再赘述，建议仅作为列表，通过前面扩展语料库的方式进行背诵。
+
+### 你背诵单词的方法步骤太多了，太浪费时间了，有必要吗？
+
+在前面扩展语料库部分，我的方式会打开很多网站有很多操作，也会有很大的信息量输入。所以这段时间有很多人反馈这样是否有必要。
+
+在我看来当然是有必要的，假设你现在是一个外国人，这些步骤对应的内容都应该是你熟练掌握了的。如果是一些你必须熟练掌握的内容，为什么不一次尽可能的掌握、练好，反而要学个半吊子在后续的阅读学习过程不断误解、试错再回头查询？
+
 ## 资料、工具推荐和扩展阅读
 
 ### 单词量测试工具
@@ -440,6 +464,20 @@ Youtube 简直是学习利器。上面有无数的英语讲师录制视频教外
 比如前段时间我的 Mac 的 PDF Preview 在拖动鼠标选中文本的时候，没有背景颜色，导致看不出选中的是什么文本。所以我就堆砌关键词 `macbook preview pdf text selection background color` 试图解决这个问题。Google 搜索给我推了 [Missing text highlighting Color when selecting it in Preview](https://apple.stackexchange.com/questions/342964/missing-text-highlighting-color-when-selecting-it-in-preview) 这个搜索结果，成功解决了我的问题。
 
 后面这句对比前面自己写的学到了很多，首先是 `missing` 的用法，其次这种背景颜色不是 `background color` 而是 `highlighting color`，然后这个问题句式结构也非常工整，简洁又准确。
+
+### 写作辅助工具
+
+写作最头疼的就是害怕语法、语义有问题。
+
+语法方面我推荐 [Grammarly](https://www.grammarly.com/) 这个工具，在英语国家也十分流行，安装[它的 Chrome 插件](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)之后，会自动检测网页文本框里的内容是否有语法问题。购买了付费会员，会对内容进行更深度优化，会通过海量内容库对你的内容进行对比，做出一些改进（比如同义词替换、表达方式等），当然基础语法监测功能免费使用。
+
+语义方面我推荐 [Google Translate](https://translate.google.as/)，用它将你写的英文翻译成中文，来看看意思是否跟自己想表达的一样。
+
+这俩可以配合一起使用：
+
+![](./assets/grammarly-google.jpg)
+
+当然，机器毕竟机器，肯定会存在误差，使用时也注意甄别是否正确。不过人也有误解的时候。
 
 ### Youtube 优秀老师
 
@@ -470,6 +508,14 @@ Youtube 简直是学习利器。上面有无数的英语讲师录制视频教外
 **但并不是完美的** ，生词往往会卡住你的跟读，如果不显示文本靠听和读很难学到这个单词。其次 **语音识别引擎不是特别准** ，有时候漏词加词也会标记你读对了，而且 **在跟读过程由于不显示文本，不会告诉你具体哪个单词、哪个地方错了** ，这样会导致你跟读时，一直读错也不知道，只知道自己读的还行。
 
 此外懂你英语并非免费课程，还需要付费购买，使用效果也因人而异，[详情可以参考这个 Issue](https://github.com/yujiangshui/A-Programmers-Guide-to-English/issues/8) ，本人亦无利益相关，请自行体验、判断是否购买。
+
+### 实用 Chrome 插件
+
+我曾安装过非常多英语相关插件，这是我唯一保留至今常用的插件：
+
+* [Cambridge Dictionary](https://chrome.google.com/webstore/detail/cambridge-dictionary/kjmjndmenaoihimmojhdabgfjefonmja)：对准单词右击就打开 Cambridge Dictionary 看到对应的词义，用以重度查询
+* [Google Dictionary (by Google)](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja)：双击即可弹出非常简单的弹窗，附带一个英文发音和简短的英文释义，用以轻度查询
+* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)：语法检测。
 
 ### 其他优秀英语教程
 

@@ -2,7 +2,7 @@
   "title": "A Programmer's Guide to English",
   "plugins": [
     "editlink",
-    "baidu",
+    "baidu@0.1.0",
     "book-summary-scroll-position-saver",
     "disqus",
     "github",

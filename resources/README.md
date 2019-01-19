@@ -25,6 +25,8 @@
 
 ![](../assets/grammarly-google.jpg)
 
+**群友也贡献了一个自己开发的工具，可以横向对比多个翻译平台的结果，有兴趣的也可以使用： <http://translation.education/paratrans/index.php> 。**
+
 当然，机器毕竟机器，肯定会存在误差，使用时也注意甄别是否正确。不过人也有误解的时候。
 
 

@@ -36,7 +36,7 @@
   * 通过 [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/clump) 查询单词意思，可以看到是否可数、各种**释义和对应的例句**、关联词和对比等等。[Merriam Webster](https://www.merriam-webster.com/dictionary/clump) 是美式在线字典，如有精力也可以作为知识补充，但是例句和界面不如 Cambridge Dictionary 好用。
   * 查看音标，尝试发音（需要先把音标练熟，参照下面教程），收听词典中给出的英式和美式的真人发音，看下自己的发音是否准确？哪里不对？是音标还是重音？练对为止。
   * 打开 [Forvo](https://forvo.com/word/clump/#en) 收听这个单词不同人的发音，可以尝试跟读以便录入自己的音频语料库。**也强烈推荐使用 [YouGlish](https://youglish.com/search/clump/us?)** ，它会搜索 Youtube 上面包含当前单词的视频，这样发音更贴合日常对话。
-  * 打开 [Google Translate](https://translate.google.as/) 语音输入，尽量带上耳机或者用耳麦尝试发音，查看是否能稳定识别出当前单词。如果不能，请回到上面步骤，对 Google Translate 播放母语真人发音音频查看能否识别。如果母语真人发音可以识别，说明你的发音有问题，请重复上面步骤调整发音到可以识别为止。
+  * 打开 [Google Translate](https://translate.google.as/) 语音输入，尽量带上耳机或者用耳麦尝试发音，查看是否能稳定识别出当前单词。如果不能，可以对 Google Translate 播放母语真人发音音频查看能否识别，如果母语音可以识别，说明 Google 识别引擎没有问题而你的发音有问题，请重复上面步骤调整发音到可以识别为止。
   * 打开 Google 搜索，<a href="../assets/clump-google.jpg" target="_blank">输入当前单词 + vs 即可看到近义词和易混淆词汇</a>，搜索查看相关对比。
   * 不是特别抽象的单词，可以打开 Google 图片搜索进行搜索，通过图像加深记忆。我用图片搜索 `clump` 时，才发现了<a href="../assets/clump.jpg" target="_blank">两位候选人的合体</a>的意思。再举一个例子，`bay` 和 `gulf` 在词典里都有海湾的意思，那它们之间有什么区别吗？用 Google 图片搜索一下你就可以发现，<a href="../assets/gulf-bay.jpg" target="_blank">`gulf` 要比 `bay` 大的多</a>。
   * 将单词以及有趣的发现记录在 [Anki](https://apps.ankiweb.net/) 里面，<a href="../assets/add-to-anki.jpg" target="_blank">只需要点击 Add 并添加单词即可，也可以在下方多加一些注释</a>，可繁可简不需要花太多时间。将在后面的 QA 部分解释为什么要用 Anki。

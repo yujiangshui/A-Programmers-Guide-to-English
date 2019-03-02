@@ -2,6 +2,8 @@
 
 专为程序员编写的英语学习指南。
 
+[点击这里打开在线版本](https://a-programmers-guide-to-english.harryyu.me/) 排版更好看，也可以[点击查看 GitHub 源码](https://github.com/yujiangshui/A-Programmers-Guide-to-English)。
+
 > 预警：本指南可能会花费你大量时间阅读，建议通过周六上午整块的时间一次性读完，并在下午制定自己的学习策略，然后在周日开始实践一下。
 
 ## 本指南的内容概要和目标人群

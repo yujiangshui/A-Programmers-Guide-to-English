@@ -36,10 +36,10 @@
 
 | 支付宝 | 微信 | Paypal |
 |---|---|---|
-| ![](./assets/donate-alipay.jpg) | ![](./assets/donate-wx.jpg) | [Paypal Me](https://www.paypal.me/yujiangshui) |
+| <img src="./assets/donate-alipay.jpg" width="300"> | <img src="./assets/donate-wx.jpg" width="300"> | [Paypal Me](https://www.paypal.me/yujiangshui) |
 
 此外，为了方便英语交流，我建了 [Telegram 群](https://t.me/joinchat/FgiD7Q971k4AMpq1jmO-OA)，如果不方便也可以添加下面作者微信：
 
 **请务必备注“进英语群”否则不会通过好友。**
 
-![](./assets/wx-robot.jpg)
+<img src="./assets/wx-robot.jpg" width="300">

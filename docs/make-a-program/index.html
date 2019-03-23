@@ -1,0 +1,484 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>如何构建一个识别英语的程序 · A Programmer's Guide to English</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../training/" />
+    
+    
+    <link rel="prev" href="../essence/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    关于本指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../essence/">
+            
+                <a href="../essence/">
+            
+                    
+                    语言学习的本质
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    如何构建一个识别英语的程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../training/">
+            
+                <a href="../training/">
+            
+                    
+                    我的训练方法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../training/KnowledgeBase.html">
+            
+                <a href="../training/KnowledgeBase.html">
+            
+                    
+                    扩充语料库的训练方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../training/ListeningandSpeaking.html">
+            
+                <a href="../training/ListeningandSpeaking.html">
+            
+                    
+                    发音和听力训练方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../training/Thinking.html">
+            
+                <a href="../training/Thinking.html">
+            
+                    
+                    英语思维训练
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../qa/">
+            
+                <a href="../qa/">
+            
+                    
+                    常见问题 QA
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../qa/WhyPTE.html">
+            
+                <a href="../qa/WhyPTE.html">
+            
+                    
+                    为什么我选择 PTE 考试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../resources/">
+            
+                <a href="../resources/">
+            
+                    
+                    资料、工具推荐和扩展阅读
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >如何构建一个识别英语的程序</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5982;&#x4F55;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x8BC6;&#x522B;&#x82F1;&#x8BED;&#x7684;&#x7A0B;&#x5E8F;">&#x5982;&#x4F55;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x8BC6;&#x522B;&#x82F1;&#x8BED;&#x7684;&#x7A0B;&#x5E8F;</h1>
+<p>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x4E0D;&#x8BA8;&#x8BBA;&#x4F60;&#x5982;&#x4F55;&#x5B66;&#x82F1;&#x8BED;&#xFF0C;&#x800C;&#x662F;<strong>&#x8BA9;&#x4F60;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x8BC6;&#x522B;&#x3001;&#x4EA4;&#x6D41;&#x82F1;&#x8BED;&#x7684;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F60;&#x4F1A;&#x5982;&#x4F55;&#x8BBE;&#x8BA1;&#xFF1F;</strong></p>
+<h2 id="&#x7B80;&#x5355;&#x7684;&#x9700;&#x6C42;&#x5206;&#x6790;">&#x7B80;&#x5355;&#x7684;&#x9700;&#x6C42;&#x5206;&#x6790;</h2>
+<p>&#x4EE5;&#x4E2D;&#x6587;&#x4E3A;&#x4F8B;&#xFF0C;&#x5F53;&#x4F60;&#x542C;&#x5230;&#x4E00;&#x4E2A;&#x5973;&#x4EBA;&#x5BF9;&#x4E00;&#x4E2A;&#x7537;&#x4EBA;&#x8BF4;&#xFF1A;&#x201C;&#x4F60;&#x662F;&#x4E00;&#x4E2A;&#x7537;&#x4EBA;&#x5417;&#xFF1F;&#x201D;&#x65F6;&#xFF0C;&#x4F60;&#x4F1A;&#x6536;&#x96C6;&#x5230;&#x54EA;&#x4E9B;&#x4FE1;&#x606F;&#xFF1F;&#x4F60;&#x9700;&#x8981;&#x54EA;&#x4E9B;&#x4FE1;&#x606F;&#x6765;&#x660E;&#x786E;&#x8FD9;&#x4E2A;&#x5973;&#x4EBA;&#x60F3;&#x8868;&#x8FBE;&#x7684;&#x786E;&#x5207;&#x610F;&#x601D;&#xFF1F;</p>
+<p>&#x9996;&#x5148;&#x662F;&#x542C;&#x529B;&#x8F93;&#x5165;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x786E;&#x4FDD;&#x9EA6;&#x514B;&#x98CE;&#x5F55;&#x5165;&#x4E86;&#x97F3;&#x9891;&#xFF0C;&#x7136;&#x540E;&#x62FF;&#x5230;&#x7684;&#x58F0;&#x6CE2;&#x5185;&#x5BB9;&#x662F; U<em>#@&amp;</em>!&amp;<em>&amp;</em>&#x3002;&#x4E4B;&#x540E;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5C06;&#x58F0;&#x6CE2;&#x5185;&#x5BB9;&#x8F93;&#x5165;&#x5230;&#x4E00;&#x5927;&#x5806;&#x5206;&#x6790;&#x5668;&#x4E2D;&#x8FDB;&#x884C;&#x5206;&#x6790;&#xFF0C;&#x5E76;&#x5F97;&#x5230;&#x6BD4;&#x8F83;&#x7CBE;&#x51C6;&#x7684;&#x610F;&#x56FE;&#x3002;</p>
+<p>&#x7B2C;&#x4E00;&#x4E2A;&#x53EF;&#x80FD;&#x662F;&#x6027;&#x522B;&#x5206;&#x6790;&#x5668;&#xFF0C;&#x901A;&#x8FC7;&#x4E00;&#x5B9A;&#x7684;&#x89C4;&#x5219;&#x8BC6;&#x522B;&#x51FA;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x7537;&#x6027;&#x7684;&#x58F0;&#x97F3;&#x8FD8;&#x662F;&#x5973;&#x6027;&#x7684;&#x58F0;&#x97F3;&#x3002;&#x56E0;&#x4E3A;&#x8FD9;&#x53E5;&#x8BDD;&#x662F;&#x7537;&#x7684;&#x8BF4;&#x51FA;&#x6765;&#x8FD8;&#x662F;&#x5973;&#x7684;&#x8BF4;&#x51FA;&#x6765;&#x8868;&#x8FBE;&#x7684;&#x610F;&#x601D;&#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x4E2A;&#x5C31;&#x662F;&#x5185;&#x5BB9;&#x8BC6;&#x522B;&#x5668;&#xFF0C;&#x5148;&#x662F;&#x52A0;&#x8F7D;&#x7CA4;&#x8BED;&#x5339;&#x914D;&#x5F15;&#x64CE;&#x548C;&#x7CA4;&#x8BED;&#x8BED;&#x6599;&#x5E93;&#x53D1;&#x73B0;&#x58F0;&#x6CE2;&#x65E0;&#x6CD5;&#x5339;&#x914D;&#x89E3;&#x6790;&#xFF0C;&#x90A3;&#x4E48;&#x6362;&#x6210;&#x666E;&#x901A;&#x8BDD;&#x5F15;&#x64CE;&#x548C;&#x8BED;&#x6599;&#x5E93;&#x3002;&#x6B64;&#x65F6;&#x5982;&#x679C;&#x4F60;&#x7684;&#x8BED;&#x6599;&#x5E93;&#x91CC;&#x6709; &#x201C;&#x4F60;&#x201D;&#x3001;&#x201C;&#x662F;&#x201D;&#x3001;&#x201C;&#x4E00;&#x4E2A;&#x201D;&#x3001;&#x201C;&#x7537;&#x4EBA;&#x201D;&#x3001;&#x201C;&#x5417;&#x201D; &#x8FD9;&#x4E9B;&#x58F0;&#x97F3;&#x7D20;&#x6750;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x53EF;&#x4EE5;&#x5339;&#x914D;&#x89E3;&#x6790;&#x51FA;&#x8FD9;&#x53E5;&#x8BDD;&#xFF1A;&#x201C;&#x4F60;&#x662F;&#x4E00;&#x4E2A;&#x7537;&#x4EBA;&#x5417;&#xFF1F;&#x201D;&#x3002;<strong>&#x6362;&#x8A00;&#x4E4B;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x7CA4;&#x8BED;&#x8BED;&#x6599;&#x5E93;&#x548C;&#x89E3;&#x6790;&#x5F15;&#x64CE;&#xFF0C;&#x5373;&#x4FBF;&#x662F;&#x7ED9;&#x4F60;&#x4E00;&#x6BB5;&#x7CA4;&#x8BED;&#x5F55;&#x97F3;&#x4F60;&#x4E5F;&#x542C;&#x4E0D;&#x61C2;&#x3002;&#x5982;&#x679C;&#x8FD9;&#x53E5;&#x8BDD;&#x6709;&#x4E00;&#x4E2A;&#x751F;&#x50FB;&#x5355;&#x8BCD;&#x4F60;&#x8BED;&#x6599;&#x5E93;&#x91CC;&#x6CA1;&#x6709;&#xFF0C;&#x90A3;&#x4E48;&#x4E5F;&#x662F;&#x65E0;&#x6CD5;&#x8BC6;&#x522B;&#x51FA;&#x6765;&#x3002;</strong></p>
+<p>&#x4E4B;&#x540E;&#x8FD8;&#x6709;&#x66F4;&#x591A;&#x8BC6;&#x522B;&#x5668;&#xFF0C;&#x6BD4;&#x5982;&#x5E74;&#x9F84;&#x3001;&#x60C5;&#x7EEA;&#x8BC6;&#x522B;&#x5668;&#x3001;&#x91CD;&#x97F3;&#x548C;&#x7591;&#x95EE;&#x8BED;&#x6C14;&#x8BC6;&#x522B;&#x53E5;&#x7B49;&#xFF0C;&#x8FD9;&#x4E9B;&#x56E0;&#x7D20;&#x5171;&#x540C;&#x51B3;&#x5B9A;&#x4E86;&#x8FD9;&#x53E5;&#x8BDD;&#x7A76;&#x7ADF;&#x60F3;&#x8981;&#x4F20;&#x8FBE;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#x3002;&#x5982;&#x679C;&#x662F;&#x4E00;&#x4E2A;&#x5973;&#x6027;&#x7684;&#x6FC0;&#x52A8;&#x7684;&#x611F;&#x53F9;&#x8BED;&#x6C14;&#x201C;&#x4F60;&#x662F;&#x4E00;&#x4E2A;&#x7537;&#x4EBA;&#x5417;&#xFF01;&#x201D;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x63A8;&#x6D4B;&#x51FA;&#x8FD9;&#x4E2A;&#x5973;&#x7684;&#x8DDF;&#x7537;&#x7684;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x8FD9;&#x4E2A;&#x7537;&#x7684;&#x505A;&#x51FA;&#x4E86;&#x4E00;&#x4E9B;&#x4F24;&#x5929;&#x5BB3;&#x7406;&#x7684;&#x4E8B;&#x60C5;&#x5BFC;&#x81F4;&#x8FD9;&#x4E2A;&#x5973;&#x6027;&#x5728;&#x8D28;&#x95EE;&#x3002;&#x5982;&#x679C;&#x662F;&#x4E00;&#x4E2A;&#x8F7B;&#x58F0;&#x7EC6;&#x8BED;&#x7684;&#x7591;&#x95EE;&#x53E5;&#x201C;&#x4F60;&#x662F;&#x4E00;&#x4E2A;&#x7537;&#x4EBA;&#x5417;&#xFF1F;&#x201D;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x4E00;&#x540D;&#x5973;&#x6027;&#x60F3;&#x786E;&#x8BA4;&#x5BF9;&#x65B9;&#x7684;&#x6027;&#x522B;&#x3002;&#x5F53;&#x7136;&#x66F4;&#x51C6;&#x786E;&#x8868;&#x8FBE;&#x8FD9;&#x4E2A;&#x610F;&#x56FE;&#x7684;&#x53E5;&#x5B50;&#x5E94;&#x8BE5;&#x662F;&#x201C;&#x4F60;&#x662F;&#x7537;&#x6027;&#x5417;&#xFF1F;&#x201D;&#x6216;&#x8005;&#x201C;&#x7537;&#x7684;&#x5973;&#x7684;&#xFF1F;&#x201D;&#x3002;</p>
+<h2 id="&#x6BD4;&#x8F83;&#x57FA;&#x7840;&#x7684;&#x65B9;&#x6848;&#x8BBE;&#x8BA1;">&#x6BD4;&#x8F83;&#x57FA;&#x7840;&#x7684;&#x65B9;&#x6848;&#x8BBE;&#x8BA1;</h2>
+<p>&#x4E0A;&#x9762;&#x9700;&#x6C42;&#x5206;&#x6790;&#x53EA;&#x662F;&#x7B80;&#x5355;&#x7684;&#x4ECB;&#x7ECD;&#x4E86; <code>&#x58F0;&#x97F3; -&gt; &#x542C;&#x529B;&#x8BC6;&#x522B;&#x5668; -&gt; &#x610F;&#x56FE;</code> &#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;<strong>&#x8BED;&#x8A00;&#x4EA4;&#x6D41;&#x662F;&#x542C;&#x8BF4;&#x8BFB;&#x5199;&#xFF0C;&#x5176;&#x4E2D;&#x5305;&#x542B;&#x4E24;&#x4E2A;&#x8BC6;&#x522B;&#x5668;&#xFF08;&#x542C;&#x529B;&#x8BC6;&#x522B;&#x5668;&#x548C;&#x89C6;&#x529B;&#x8BC6;&#x522B;&#x5668;&#xFF09;&#xFF0C;&#x4E00;&#x4E2A;&#x6838;&#x5FC3;&#x7406;&#x89E3;&#x5668;&#xFF0C;&#x4E24;&#x4E2A;&#x8868;&#x8FBE;&#x5668;&#xFF08;&#x53E3;&#x8BED;&#x8868;&#x8FBE;&#x5668;&#x548C;&#x4E66;&#x5199;&#x8868;&#x8FBE;&#x5668;&#xFF09;</strong>&#x3002;&#x901A;&#x8FC7;&#x5BF9;&#x5E94;&#x7684;&#x5B9E;&#x9645;&#x573A;&#x666F;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x7684;&#x68B3;&#x7406;&#x51FA;&#x5BF9;&#x5E94;&#x9700;&#x8981;&#x7684;&#x529F;&#x80FD;&#x3002;</p>
+<h3 id="&#x542C;&#x529B;&#x8BC6;&#x522B;&#x5668;">&#x542C;&#x529B;&#x8BC6;&#x522B;&#x5668;</h3>
+<ul>
+<li><strong>&#x542C;&#x529B;&#x80FD;&#x529B;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x8981;&#x6C42;&#x53EF;&#x4EE5;&#x8F93;&#x5165;&#x58F0;&#x97F3;&#x5E76;&#x8F6C;&#x6362;&#x6210;&#x4E00;&#x79CD;&#x53EF;&#x5206;&#x6790;&#x7684;&#x4FE1;&#x53F7;&#x3002;</li>
+<li>&#x8BAD;&#x7EC3;&#xFF1A;&#x4E70;&#x4E2A;&#x597D;&#x9EA6;&#x514B;&#x98CE;&#xFF0C;&#x5BF9;&#x5E94;&#x4EBA;&#x7C7B;&#x662F;&#x4FDD;&#x62A4;&#x597D;&#x8033;&#x6735;&#x548C;&#x542C;&#x529B;&#x3002;</li>
+</ul>
+</li>
+<li><strong>&#x53E3;&#x97F3;&#x8BC6;&#x522B;&#x5668;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x5404;&#x7C7B;&#x65B9;&#x8A00;&#x6BD4;&#x5982;&#x7CA4;&#x8BED;&#xFF0C;&#x5404;&#x79CD;&#x53E3;&#x97F3;&#x6BD4;&#x5982;&#x4E1C;&#x5317;&#x53E3;&#x97F3;&#x3001;&#x5E7F;&#x4E1C;&#x53E3;&#x97F3;&#x3001;&#x82F1;&#x5F0F;&#x53D1;&#x97F3;&#x548C;&#x7F8E;&#x5F0F;&#x53D1;&#x97F3;&#x3002;</li>
+</ul>
+</li>
+<li><strong>&#x8BED;&#x8A00;&#x7279;&#x6027;&#x8BC6;&#x522B;&#x5668;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x8BED;&#x8A00;&#x4E4B;&#x95F4;&#x4F1A;&#x6709;&#x4E0D;&#x540C;&#x7279;&#x6027;&#xFF0C;&#x6BD4;&#x5982;&#x4E2D;&#x6587;&#x6CA1;&#x6709;&#x7565;&#x8BFB;&#xFF0C;&#x90FD;&#x662F;&#x4E00;&#x4E2A;&#x4E00;&#x4E2A;&#x5B57;&#x5FF5;&#x51FA;&#x6765;&#xFF0C;&#x800C;&#x82F1;&#x6587;&#x4F1A;&#x4E3A;&#x4E86;&#x8BF4;&#x8BDD;&#x7701;&#x52B2;&#x800C;&#x7565;&#x8BFB;&#x6216;&#x8005;&#x8FDE;&#x8BFB;&#xFF0C;&#x6BD4;&#x5982; &#x201C;drink it&#x201D; &#x5E76;&#x4E0D;&#x662F;&#x5355;&#x4E2A;&#x8E66;&#x7684; &#x201C;&#x51C6;&#x514B;&#x4E00;&#x7279;&#x201D;&#xFF0C;&#x800C;&#x662F;&#x7C7B;&#x4F3C; &#x201C;&#x51C6;kei&#x7279;&#x201D;&#x3002;&#x4E2D;&#x6587;&#x7684; &#x201C;&#x559D;&#x5B83;&#x201D; &#x5C31;&#x662F; &#x201C;&#x559D;&#x5B83;&#x201D;&#xFF0C;&#x4E0D;&#x4F1A;&#x6709;&#x7C7B;&#x4F3C; &#x201C;&#x8D6B;&#x7279;&#x201D; &#x4E4B;&#x7C7B;&#x7684;&#x53D8;&#x5316;&#x3002;</li>
+<li>&#x8BAD;&#x7EC3;&#xFF1A;&#x6269;&#x5145;&#x7279;&#x6B8A;&#x8BED;&#x8A00;&#x5F15;&#x64CE;&#x7684;&#x5339;&#x914D;&#x89C4;&#x5219;&#xFF0C;&#x6269;&#x5145;&#x8BED;&#x6599;&#x5E93;&#xFF0C;&#x5F53;&#x542C;&#x5230; &#x201C;&#x51C6;kei&#x7279;&#x201D; &#x53EF;&#x4EE5;&#x8BC6;&#x522B;&#x51FA;&#x662F; &#x201C;drink it&#x201D;&#x3002;</li>
+</ul>
+</li>
+<li>&#x97F3;&#x91CF;&#x8C03;&#x8282;&#x548C;&#x6742;&#x97F3;&#x5904;&#x7406;&#x5668;<ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7B97;&#x6CD5;&#x8FC7;&#x6EE4;&#x65E0;&#x7528;&#x6742;&#x97F3;&#xFF0C;&#x5E76;&#x5C06;&#x5C0F;&#x97F3;&#x91CF;&#x8C03;&#x5927;&#x4F7F;&#x5176;&#x6E05;&#x6670;&#x3002;&#x4EBA;&#x7C7B;&#x5929;&#x7136;&#x8FDB;&#x5316;&#x51FA;&#x8FD9;&#x79CD;&#x80FD;&#x529B;&#xFF0C;&#x65E0;&#x9700;&#x7279;&#x6B8A;&#x8BAD;&#x7EC3;&#x3002;</li>
+</ul>
+</li>
+<li>&#x8BED;&#x6C14;&#x3001;&#x6027;&#x522B;&#x3001;&#x8EAB;&#x4EFD;&#x3001;&#x8BED;&#x901F;&#x8BC6;&#x522B;&#x5668;<ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x4EBA;&#x7C7B;&#x5929;&#x7136;&#x8FDB;&#x5316;&#x51FA;&#x8FD9;&#x79CD;&#x80FD;&#x529B;&#xFF0C;&#x65E0;&#x9700;&#x7279;&#x6B8A;&#x8BAD;&#x7EC3;&#x3002;</li>
+</ul>
+</li>
+<li>&#x4E0A;&#x4E0B;&#x6587;&#x7F13;&#x5B58;&#x5668;<ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x4EA4;&#x6D41;&#x8FC7;&#x7A0B;&#x8981;&#x6709;&#x4E0A;&#x4E0B;&#x6587;&#x5185;&#x5BB9;&#x7F13;&#x5B58;&#xFF0C;&#x7ED3;&#x5408;&#x8F93;&#x5165;&#x7406;&#x89E3;&#x5668;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h3 id="&#x89C6;&#x529B;&#x8BC6;&#x522B;&#x5668;">&#x89C6;&#x529B;&#x8BC6;&#x522B;&#x5668;</h3>
+<ul>
+<li>&#x89C6;&#x529B;&#x80FD;&#x529B;</li>
+<li>&#x56FE;&#x5F62;&#x8BC6;&#x522B;&#x5668;<ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x4E0D;&#x540C;&#x5B57;&#x4F53;&#x3001;&#x53D8;&#x5F62;&#xFF08;&#x82F1;&#x6587;&#x5927;&#x5C0F;&#x5199;&#x3001;&#x4E2D;&#x6587;&#x7E41;&#x7B80;&#x4F53;&#x7B49;&#xFF09;&#x90FD;&#x53EF;&#x4EE5;&#x8BC6;&#x522B;&#x51FA;&#x6765;&#x5177;&#x4F53;&#x5B57;&#x7B26;&#xFF0C;&#x540C;&#x65F6;&#x9700;&#x8981;&#x8BC6;&#x522B;&#x6807;&#x70B9;&#x7B26;&#x53F7;&#x7B49;&#x8F93;&#x5165;&#x7406;&#x89E3;&#x5668;&#x3002;</li>
+<li>&#x8BAD;&#x7EC3;&#xFF1A;&#x8BC6;&#x522B;&#x80FD;&#x529B;&#x3001;&#x7CBE;&#x51C6;&#x5EA6;&#x548C;&#x901F;&#x5EA6;&#x3002;&#x6BD4;&#x5982;&#x4E00;&#x773C;&#x770B;&#x51FA; <code>message</code> &#x548C; <code>massage</code> &#x662F;&#x4E0D;&#x4E00;&#x6837;&#x7684;&#x3002;</li>
+</ul>
+</li>
+<li>&#x4E0A;&#x4E0B;&#x6587;&#x7F13;&#x5B58;&#x5668;</li>
+</ul>
+<h3 id="&#x7406;&#x89E3;&#x5668;">&#x7406;&#x89E3;&#x5668;</h3>
+<p>&#x7406;&#x89E3;&#x5668;&#x53EF;&#x4EE5;&#x8BF4;&#x662F;&#x6700;&#x91CD;&#x8981;&#x7684;&#x90E8;&#x5206;&#x4E86;&#xFF0C;&#x4E5F;&#x662F;&#x6700;&#x96BE;&#x7684;&#x90E8;&#x5206;</p>
+<ul>
+<li><strong>&#x8BED;&#x6599;&#x5E93;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x5B57;&#x6BCD;&#x3001;&#x5355;&#x8BCD;&#x3001;&#x53D1;&#x97F3;&#x3001;&#x591A;&#x91CD;&#x8BED;&#x5883;&#x542B;&#x4E49;&#x3001;&#x5386;&#x53F2;&#x6587;&#x5316;&#x80CC;&#x666F;&#x3001;&#x4E0D;&#x540C;&#x5F62;&#x6001;&#xFF0C;&#x540C;&#x4E49;&#x8BCD;&#x53CD;&#x4E49;&#x8BCD;&#x76F8;&#x8FD1;&#x8BCD;&#x3002;</li>
+<li>&#x8BAD;&#x7EC3;&#xFF1A;&#x9700;&#x8981;&#x957F;&#x671F;&#x79EF;&#x7D2F;&#x548C;&#x6269;&#x5145;&#xFF0C;&#x9700;&#x8981;&#x5927;&#x91CF;&#x8BAD;&#x7EC3;&#x3002;</li>
+</ul>
+</li>
+<li><strong>&#x8BC6;&#x522B;&#x5F15;&#x64CE;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x5355;&#x8BCD;&#x62FC;&#x88C5;&#x8D77;&#x6765;&#x7684;&#x53E5;&#x578B;&#x53E5;&#x5F0F;&#x3001;&#x8BED;&#x6CD5;&#x3001;&#x65F6;&#x6001;&#x542B;&#x4E49;&#x548C;&#x89C4;&#x5219;&#x3001;&#x6807;&#x70B9;&#x7B26;&#x53F7;&#x3001;&#x5355;&#x590D;&#x6570;&#x3001;&#x60EF;&#x7528;&#x8868;&#x8FBE;&#x3002;</li>
+<li>&#x8BAD;&#x7EC3;&#xFF1A;&#x5355;&#x70B9;&#x7A81;&#x7834;&#xFF0C;&#x4E13;&#x9879;&#x8BAD;&#x7EC3;&#xFF0C;&#x9010;&#x6B65;&#x4F53;&#x7CFB;&#x5316;&#x79EF;&#x7D2F;&#x3002;</li>
+</ul>
+</li>
+<li><strong>&#x601D;&#x8003;&#x548C;&#x601D;&#x7EF4;&#x80FD;&#x529B;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x9488;&#x5BF9;&#x610F;&#x56FE;&#x7ED3;&#x5408;&#x4E4B;&#x524D;&#x7684;&#x8BB0;&#x5FC6;&#x4EE5;&#x53CA;&#x7ECF;&#x9A8C;&#x5F97;&#x51FA;&#x81EA;&#x5DF1;&#x60F3;&#x8981;&#x8868;&#x8FBE;&#x7684;&#x610F;&#x56FE;&#x3002;</li>
+<li>&#x8BAD;&#x7EC3;&#xFF1A;&#x7ED3;&#x6784;&#x6027;&#x8868;&#x8FBE;&#xFF0C;&#x601D;&#x7EF4;&#x80FD;&#x529B;&#x953B;&#x70BC;&#xFF0C;&#x601D;&#x8003;&#x548C;&#x603B;&#x7ED3;&#x80FD;&#x529B;&#x3002;&#x8FD9;&#x4E2A;&#x4E0E;&#x8BED;&#x8A00;&#x65E0;&#x5173;&#x3002;</li>
+</ul>
+</li>
+<li>&#x4E0A;&#x4E0B;&#x6587;&#x7F13;&#x5B58;&#x5668;</li>
+</ul>
+<h3 id="&#x53E3;&#x8BED;&#x8868;&#x8FBE;&#x5668;">&#x53E3;&#x8BED;&#x8868;&#x8FBE;&#x5668;</h3>
+<p>&#x5F53;&#x7406;&#x89E3;&#x5668;&#x601D;&#x8003;&#x8FD0;&#x7B97;&#x5E76;&#x5F97;&#x5230;&#x60F3;&#x8981;&#x8868;&#x8FBE;&#x7684;&#x610F;&#x56FE;&#x4E4B;&#x540E;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x5F00;&#x59CB;&#x8868;&#x8FBE;&#x4F20;&#x9012;&#x51FA;&#x53BB;&#x3002;</p>
+<ul>
+<li><strong>&#x610F;&#x56FE;&#x8BED;&#x6599;&#x7EC4;&#x88C5;&#x5668;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x5C06;&#x610F;&#x56FE;&#x7ED3;&#x5408;&#x8BED;&#x6599;&#x4E2D;&#x7684;&#x5355;&#x8BCD;&#x3001;&#x53E5;&#x578B;&#x53E5;&#x5F0F;&#x3001;&#x60EF;&#x7528;&#x8868;&#x8FBE;&#x8FDB;&#x884C;&#x5339;&#x914D;&#x7EC4;&#x5408;&#xFF0C;&#x6311;&#x9009;&#x51FA;&#x6700;&#x7B26;&#x5408;&#x4F60;&#x610F;&#x56FE;&#x7684;&#x8BED;&#x53E5;&#x3002;</li>
+</ul>
+</li>
+<li><strong>&#x53D1;&#x97F3;&#x5668;</strong><ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x6839;&#x636E;&#x7EC4;&#x88C5;&#x51FA;&#x6765;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x7ED3;&#x5408;&#x7279;&#x6B8A;&#x7684;&#x8FDE;&#x8BFB;&#x3001;&#x7565;&#x8BFB;&#x7B49;&#x8BED;&#x8A00;&#x7279;&#x6027;&#xFF0C;&#x8F6C;&#x6362;&#x6210;&#x53D1;&#x58F0;&#x4FE1;&#x53F7;&#x3002;&#x5BF9;&#x5E94;&#x4EBA;&#x7C7B;&#x7684;&#x8BDD;&#x662F;<strong>&#x63A7;&#x5236;&#x820C;&#x5934;&#x3001;&#x58F0;&#x5E26;&#x548C;&#x547C;&#x5438;&#x7CFB;&#x7EDF;&#x7684;&#x808C;&#x8089;&#x4F7F;&#x5176;&#x53D8;&#x6210;&#x5BF9;&#x5E94;&#x5F62;&#x72B6;&#xFF0C;&#x8BA9;&#x6C14;&#x6D41;&#x901A;&#x8FC7;&#x58F0;&#x5E26;&#x53D1;&#x51FA;&#x5BF9;&#x5E94;&#x58F0;&#x97F3;&#x3002;</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="&#x4E66;&#x5199;&#x8868;&#x8FBE;&#x5668;">&#x4E66;&#x5199;&#x8868;&#x8FBE;&#x5668;</h3>
+<ul>
+<li>&#x610F;&#x56FE;&#x8BED;&#x6599;&#x7EC4;&#x88C5;&#x5668;</li>
+<li>&#x4E66;&#x5199;&#x8868;&#x8FBE;&#x5668;<ul>
+<li>&#x8BF4;&#x660E;&#xFF1A;&#x5C06;&#x8BED;&#x6599;&#x7EC4;&#x88C5;&#x7ED3;&#x679C;&#x4EE5;&#x89C6;&#x89C9;&#x7684;&#x65B9;&#x5F0F;&#x8868;&#x8FBE;&#xFF0C;&#x5BF9;&#x4E8E;&#x4EBA;&#x7C7B;&#x662F;&#x63A7;&#x5236;&#x624B;&#x90E8;&#x808C;&#x8089;&#x4E66;&#x5199;&#x51FA;&#x5BF9;&#x5E94;&#x5F62;&#x72B6;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<p>&#x4ECE;&#x4E0A;&#x9762;&#x53EF;&#x4EE5;&#x770B;&#x51FA;&#xFF0C;&#x53E3;&#x8BED;&#x542C;&#x529B;&#x76F8;&#x5BF9;&#x4E8E;&#x9605;&#x8BFB;&#x5199;&#x4F5C;&#x66F4;&#x52A0;&#x56F0;&#x96BE;&#xFF0C;&#x4E3B;&#x8981;&#x56E0;&#x4E3A;&#x5B9E;&#x65F6;&#x6027;&#x7684;&#x8981;&#x6C42;&#x3002;&#x4F60;&#x5FC5;&#x987B;&#x8FC5;&#x901F;&#x53CD;&#x9988;&#x4E0D;&#x7ECF;&#x8FC7;&#x601D;&#x8003;&#xFF0C;&#x8FD9;&#x8981;&#x6C42;<strong>&#x4F60;&#x8981;&#x65E0;&#x610F;&#x8BC6;&#x7684;&#x53BB;&#x7528;&#x82F1;&#x8BED;&#x8868;&#x8FBE;</strong>&#xFF0C;&#x6240;&#x4EE5;&#x8BED;&#x8A00;&#x5B66;&#x4E60;&#x6CA1;&#x6709;&#x6280;&#x5DE7;&#xFF0C;&#x53EA;&#x6709;&#x5927;&#x91CF;&#x8BAD;&#x7EC3;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../essence/" class="navigation navigation-prev " aria-label="Previous page: 语言学习的本质">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../training/" class="navigation navigation-next " aria-label="Next page: 我的训练方法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"如何构建一个识别英语的程序","level":"1.3","depth":1,"next":{"title":"我的训练方法","level":"1.4","depth":1,"path":"training/README.md","ref":"./training/README.md","articles":[{"title":"扩充语料库的训练方法","level":"1.4.1","depth":2,"path":"training/KnowledgeBase.md","ref":"./training/KnowledgeBase.md","articles":[]},{"title":"发音和听力训练方法","level":"1.4.2","depth":2,"path":"training/ListeningandSpeaking.md","ref":"./training/ListeningandSpeaking.md","articles":[]},{"title":"英语思维训练","level":"1.4.3","depth":2,"path":"training/Thinking.md","ref":"./training/Thinking.md","articles":[]}]},"previous":{"title":"语言学习的本质","level":"1.2","depth":1,"path":"essence/README.md","ref":"./essence/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["editlink","baidu-tongji","book-summary-scroll-position-saver","disqus","github","splitter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"a-programmers-guide-to-english"},"github":{"url":"https://github.com/yujiangshui/A-Programmers-Guide-to-English"},"editlink":{"label":"Edit This Page","multilingual":false,"base":"https://github.com/yujiangshui/A-Programmers-Guide-to-English/edit/master"},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":"d06ab4cb74251c2a6ad3d47a7d9c2864"},"book-summary-scroll-position-saver":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"A Programmer's Guide to English","gitbook":"*"},"file":{"path":"make-a-program/README.md","mtime":"2019-01-17T15:45:55.017Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-23T06:54:53.379Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

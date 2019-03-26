@@ -4,10 +4,11 @@ name: default
 steps:
   - name: deploy
     image: cschlosser/drone-ftps
+    environment:
+      FTP_USERNAME:
+        from_secret: ftpuser
+      FTP_PASSWORD:
+        from_secret: ftppass
     settings:
       hostname:
         from_secret: hostname
-      ftp_password:
-        from_secret: ftppass
-      ftp_username:
-        from_secret: ftpuser

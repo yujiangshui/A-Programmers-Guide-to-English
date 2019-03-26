@@ -12,3 +12,4 @@ steps:
     settings:
       hostname:
         from_secret: hostname
+      secure: false

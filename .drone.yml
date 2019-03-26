@@ -13,3 +13,5 @@ steps:
       hostname:
         from_secret: hostname
       secure: false
+      src_dir: /docs
+      clean_dir: true

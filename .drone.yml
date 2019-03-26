@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: deploy
+    image: cschlosser/drone-ftps
+    settings:
+      hostname:
+        from_secret: hostname
+      FTP_PASSWORD:
+        from_secret: ftppass
+      FTP_USERNAME:
+        from_secret: ftpuser

@@ -7,7 +7,7 @@ steps:
     settings:
       hostname:
         from_secret: hostname
-      FTP_PASSWORD:
+      ftp_password:
         from_secret: ftppass
-      FTP_USERNAME:
+      ftp_username:
         from_secret: ftpuser

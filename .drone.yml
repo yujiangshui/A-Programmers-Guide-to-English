@@ -9,6 +9,6 @@ steps:
         from_secret: Hosts
       delete: true
       source: ./docs
-      target: /root/apps/a-programmers-guide-to-english/docs
+      target: /root/apps/a-programmers-guide-to-english/
       key:
         from_secret: Key

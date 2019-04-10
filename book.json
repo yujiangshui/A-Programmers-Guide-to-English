@@ -2,7 +2,7 @@
   "title": "A Programmer's Guide to English",
   "plugins": [
     "editlink",
-    "baidu-tongji",
+    "ga",
     "book-summary-scroll-position-saver",
     "disqus",
     "github",
@@ -17,8 +17,8 @@
     "github": {
       "url": "https://github.com/yujiangshui/A-Programmers-Guide-to-English"
     },
-    "baidu-tongji": {
-      "token": "d06ab4cb74251c2a6ad3d47a7d9c2864"
+    "ga": {
+      "token": "UA-57557739-6"
     },
     "disqus": {
       "shortName": "a-programmers-guide-to-english"

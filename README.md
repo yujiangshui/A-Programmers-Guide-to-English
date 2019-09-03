@@ -24,18 +24,12 @@
 
 请移步：
 
-* [语言学习的本质浅析](/essence/)
-* [如何构建一个识别英语的程序](/make-a-program/)
-* [我的训练方法](/training/)
-* [常见问题 QA](/qa/)
-* [资料、工具推荐和扩展阅读](/resources/)
+- [语言学习的本质浅析](/essence/)
+- [如何构建一个识别英语的程序](/make-a-program/)
+- [我的训练方法](/training/)
+- [常见问题 QA](/qa/)
+- [资料、工具推荐和扩展阅读](/resources/)
 
 ## 写在后面
 
 目前我还在持续学习英语，并有规划开发一些产品辅助学习，欢迎关注我的 [GitHub](https://github.com/yujiangshui)、[知乎](https://www.zhihu.com/)、[Twitter](https://twitter.com/yujiangshui) 以便看到最新相关进展和一些分享。
-
-此外，为了方便英语交流，我建了 [Telegram 群](https://t.me/joinchat/FgiD7Q971k4AMpq1jmO-OA)，如果不方便也可以添加下面作者微信进入微信群：
-
-**请务必备注“进英语群”否则不会通过好友。**
-
-<img src="./assets/wx-robot.jpg" width="300">

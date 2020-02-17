@@ -60,7 +60,7 @@
 
 ## 其他优秀英语教程
 
-这是一份 2004 的资料，台湾一大学英语老师做的网站 <http://chifenchen.tripod.com/> 虽然很老土，但是知识不过时，比较系统、简洁明了的介绍了发音的几个点，而且发音非常准。
+这是一份 2004 的资料，台湾一大学英语老师做的网站 http://chifenchen.tripod.com/ （打开前请注意不要启用 Flash，有[安全风险](https://github.com/yujiangshui/A-Programmers-Guide-to-English/issues/22)）虽然很老土，但是知识不过时，比较系统、简洁明了的介绍了发音的几个点，而且发音非常准。
 
 ## 优秀的经验技巧扩展阅读
 

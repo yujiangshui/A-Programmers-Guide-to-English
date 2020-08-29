@@ -54,7 +54,7 @@
 
 我曾安装过非常多英语相关插件，这是我唯一保留至今常用的插件：
 
-* [Cambridge Dictionary](https://chrome.google.com/webstore/detail/cambridge-dictionary/kjmjndmenaoihimmojhdabgfjefonmja)：对准单词右击就打开 Cambridge Dictionary 看到对应的词义，用以重度查询
+* [Cambridge Dictionary](https://chrome.google.com/webstore/detail/cambridge-dictionary/dbiljoifjihhnghopaokjicepkcdfglo)：对准单词右击就打开 Cambridge Dictionary 看到对应的词义，用以重度查询
 * [Google Dictionary (by Google)](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja)：双击即可弹出非常简单的弹窗，附带一个英文发音和简短的英文释义，用以轻度查询
 * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)：语法检测。
 
